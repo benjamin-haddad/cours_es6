@@ -39,9 +39,12 @@ const persons ={
        {
           nom : "Romero" 
          prenom: "John"
+       },
+       {
+                nom 
 
 
-       } 
+       }
  
  
 
