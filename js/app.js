@@ -84,27 +84,28 @@ console.log (Object.values(product[1]))
 
 console.log (product [1].price)
 
-product.forEach(cle) => {
+product.forEach((cle) =>{
  console.log (cle.name+' ' +cle.price)
+
  for (let data of product){
     console.log (data.name)
  }
- const filterediItems
+ 
 
  const personne_1 = {
-       nom : "berner lee"
+       nom : "berner lee",
        prenom : "john"
       } 
       const personne_2 = {
-        nom : "Doe"
+        nom : "Doe",
         prenom : "John"
       }
      const people = []
 
      people.push (personne_1,personne_2)
      console.table (people)
-     console.log(people [0])
- }
+     console.log(people[0])
+  
 
 });
  
