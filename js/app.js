@@ -68,3 +68,43 @@ persons.map((cle) =>{
 
  console.log(`Le prix TTC ${prix*taxe / 100 + prix}`)
  // ttc
+
+ const product=[
+    {name: "car", price: 6000},
+    {name: "Bike", price: 150},
+    {name: "phone", price: 700},
+    {name: "Watch", price: 200},
+    {name: "pen", price: 8},
+    {name: "bag", price: 50},
+];
+
+console.log (product)
+
+console.log (Object.values(product[1]))
+
+console.log (product [1].price)
+
+product.forEach(cle) => {
+ console.log (cle.name+' ' +cle.price)
+ for (let data of product){
+    console.log (data.name)
+ }
+ const filterediItems
+
+ const personne_1 = {
+       nom : "berner lee"
+       prenom : "john"
+      } 
+      const personne_2 = {
+        nom : "Doe"
+        prenom : "John"
+      }
+     const people = []
+
+     people.push (personne_1,personne_2)
+     console.table (people)
+     console.log(people [0])
+ }
+
+});
+ 
