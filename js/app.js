@@ -1,1 +1,3 @@
-console.log("Hello");
+const title = "Cours js";
+
+console.log(title);
