@@ -41,12 +41,23 @@ const persons ={
          prenom: "John"
        },
        {
-                nom 
+        nom : "Each",
+        prenom: "Branden"
+    },
+    {
+        nom : "Doe",
+        prenom: "John"
+    }
+
+console.log(Object.values(persons));
+console.table(persons)
+persons.map((cle) =>{
+    console.log(cle.nom+' '+cle.prenom)
+})
+
+//opérateurs
 
 
-       }
- 
- 
 
 })()
 
