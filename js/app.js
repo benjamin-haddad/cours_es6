@@ -1,46 +1,46 @@
-(()=>{
+console.log("Hello javascript")
+const version = 8.2
+let nom = String("Javascript")
+var prenom = "Brandan"
+console.log(prenom)
+let phone = 20.00
+const bool = true
+const x = null
+console.log(typeof nom)
+const langs = ["html","css","js", true]
+console.table(langs)
 
-    console.log("hello javascript")
-    const version = 8.2
-    let nom = new String("javascript")
 
-    let phone = 20.00
-    const bool =true
-    const x = null
-     console.log (typeof nom)
-    console.log (nom)
-    const langs =["html", "css","js", true]
-    console.table(langs)
-    const User = {
-         nom: "Romero",
-         prenom: "John",
-         age: 43,
-         ville: "NY",
-         pays: "USA",
- }
-console.log(User) 
-console.log(`${User.nom} : ${User.prenom}`)
 console.log(langs.length)
-/*for(let i= 0; i < langs.length;  i++){
-     console.log(langs[i])
+/* for(let i = 0; i < langs.length; i++){
+    console.log(langs[i])
 } */
-
-let i =0;
-while(i <langs.length){
-console.log (`${i} : ${langs [i]}`)
-i++
+let i = 0;
+while(i < langs.length){
+    console.log(`Index ${i} : ${langs[i]}`)
+    i++
 }
+const User = {
+    nom: "Doe",
+    prenom: "John",
+    age: 30,
+    ville: "NY",
+    pays: "USA"
+}
+console.log(Object.values(User));
 for(let index in User){
- console.log (`${index}) : ${User[index]}`)
+    console.log(`${index} : ${User[index]}`)
+}
+
 langs.forEach((element) => {
-    
+    console.log(element)
 });
-const persons ={
-       {
-          nom : "Romero" 
-         prenom: "John"
-       },
-       {
+const persons =[
+    {
+        nom : "Berner Lee",
+        prenom : "Tim"
+    },
+    {
         nom : "Each",
         prenom: "Branden"
     },
@@ -48,17 +48,23 @@ const persons ={
         nom : "Doe",
         prenom: "John"
     }
-
+]
 console.log(Object.values(persons));
 console.table(persons)
 persons.map((cle) =>{
     console.log(cle.nom+' '+cle.prenom)
 })
 
-//opérateurs
+//opérateurs = + - * / % > < ? ?? : 
+ let age = 24
+ let annee = 2024
+ console.log(age% 2)
 
+ console.log(`Vous êtes né en ${annee - age}`)
+ age% 2 == 0 ? console.log("Nombre paire") : console.log("nombre impaire")
 
+ let prix = 55 //ht 55 * 5.5 / 100
+ let taxe = 5.5
 
-})()
-
-
+ console.log(`Le prix TTC ${prix*taxe / 100 + prix}`)
+ // ttc
